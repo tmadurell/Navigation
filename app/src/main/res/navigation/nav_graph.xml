@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bottom1Fragment">
+    <!-- Adalt es la primera pantalla layout que mostrara al usuari startDEstination=X -->
+
+
+    <!--Aquí estan els Bottoms i el primer Bottom es un Tabbed1 dins, en comptes de la pantalla Bottom-->
+    <!--label= Nom del titol de cada fragment-->
+    <fragment
+        android:id="@+id/bottom1Fragment"
+        android:name="com.example.navigation.Tabbed1Fragment"
+        android:label="Fragment Bottom 1"
+        tools:layout="@layout/fragment_tabbed1" />
+    <fragment
+        android:id="@+id/bottom2Fragment"
+        android:name="com.example.navigation.Bottom2Fragment"
+        android:label="Fragment Bottom 2"
+        tools:layout="@layout/fragment_bottom2" />
+    <fragment
+        android:id="@+id/bottom3Fragment"
+        android:name="com.example.navigation.Bottom3Fragment"
+        android:label="Fragment Bottom 3"
+        tools:layout="@layout/fragment_bottom3" />
+
+    <!--Aquí estan els Drawers -->
+
+    <fragment
+        android:id="@+id/drawer1Fragment"
+        android:name="com.example.navigation.Drawer1Fragment"
+        android:label="Fragment Drawer 1"
+        tools:layout="@layout/fragment_drawer1" />
+    <fragment
+        android:id="@+id/drawer2Fragment"
+        android:name="com.example.navigation.Drawer2Fragment"
+        android:label="Fragment Drawer 2"
+        tools:layout="@layout/fragment_drawer2" />
+    <fragment
+        android:id="@+id/drawer3Fragment"
+        android:name="com.example.navigation.Drawer3Fragment"
+        android:label="Fragment Drawer 3"
+        tools:layout="@layout/fragment_drawer3" />
+
+    <!--Aquí estan els Options -->
+    <fragment
+        android:id="@+id/options1Fragment"
+        android:name="com.example.navigation.Options1Fragment"
+        android:label="Options 1"
+        tools:layout="@layout/fragment_options1" />
+    <fragment
+        android:id="@+id/options2Fragment"
+        android:name="com.example.navigation.Options2Fragment"
+        android:label="Options 2"
+        tools:layout="@layout/fragment_options2" />
+    <fragment
+        android:id="@+id/options3Fragment"
+        android:name="com.example.navigation.Options3Fragment"
+        android:label="Options 3"
+        tools:layout="@layout/fragment_options3" />
+
+</navigation>

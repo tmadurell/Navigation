@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_bottom.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_options.xml" value="0.1984375" />
+        <entry key="app/src/main/res/layout/activity_tabbed.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/drawer_header.xml" value="0.17299898682877407" />
+        <entry key="app/src/main/res/layout/fragment_bottom2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_bottom3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_drawer1.xml" value="0.10790273556231003" />
+        <entry key="app/src/main/res/layout/fragment_drawer2.xml" value="0.10790273556231003" />
+        <entry key="app/src/main/res/layout/fragment_drawer3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_options1.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_options2.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_options3.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_tabbed1.xml" value="0.17299898682877407" />
+        <entry key="app/src/main/res/layout/fragment_tabbed1_a.xml" value="0.17299898682877407" />
+        <entry key="app/src/main/res/layout/fragment_tabbed1_b.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_tabbed1_c.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/options_menu.xml" value="0.35572916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
